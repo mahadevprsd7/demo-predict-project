@@ -1,0 +1,184 @@
+/* ---------------------------------
+   Global Body Styling
+--------------------------------- */
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ---------------------------------
+   Main Container (Glass Card)
+--------------------------------- */
+
+.container {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    backdrop-filter: blur(8px);
+}
+
+
+/* ---------------------------------
+   Headings
+--------------------------------- */
+
+h1 {
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+
+/* ---------------------------------
+   Form Inputs
+--------------------------------- */
+
+input {
+    padding: 12px;
+    width: 65%;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+
+/* ---------------------------------
+   Buttons
+--------------------------------- */
+
+button {
+    padding: 12px 24px;
+    background: #e5d68f;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: white;
+    color: black;
+    transform: scale(1.05);
+}
+
+
+/* ---------------------------------
+   Hyperlink Styling
+--------------------------------- */
+
+a {
+    text-decoration: none;
+    color: #e5d68f;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #00ffcc;
+}
+
+a:visited {
+    color: #e5d68f;
+}
+
+
+/* ---------------------------------
+   Link as Button (Optional Class)
+--------------------------------- */
+
+.link-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e5d68f;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.link-btn:hover {
+    background: white;
+    color: black;
+}
+
+
+/* ---------------------------------
+   Prediction Image Styling
+--------------------------------- */
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    max-width: 100%;
+}
+
+
+/* ---------------------------------
+   Table Styling (History Page)
+--------------------------------- */
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+th {
+    background: rgba(0,255,204,0.2);
+}
+
+tr:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+
+/* ---------------------------------
+   Responsive Adjustment
+--------------------------------- */
+
+@media (max-width: 900px) {
+
+    .container {
+        width: 80%;
+        margin-top: 60px;
+        padding: 25px;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    table {
+        width: 95%;
+    }
+}
