@@ -1,0 +1,1 @@
+web: gunicorn salary_prediction_project.wsgi
